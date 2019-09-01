@@ -1,0 +1,362 @@
+main {
+	width: 100%;
+	height: auto;
+	font-family: 'Montserrat', sans-serif;
+	padding: 0;
+}
+
+/* section header */
+
+.main-header {
+	width: 100%;
+	height: 100vh;
+	background-image: url("../img/background/programmeur.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	filter: grayscale(50%);
+}
+
+.main-header .title {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	width: 100%;
+	height: 50%;
+}
+
+.main-header .title h1 {
+	text-align: center;
+	font-size: 4.3em;
+}
+
+.main-header .info {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	width: 100%;
+	height: 40vh;
+}
+
+.main-header .info p {
+	margin-top: 30px;
+	font-size: 1.5em;
+}
+
+.main-header .img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 10vh;
+}
+
+.main-header .img a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50px;
+	height: 50px;
+	border: 2px #000 solid;
+	border-radius: 50%;
+	color: #000;
+}
+
+/* section info */
+
+.main-info {
+	width: 100%;
+	height: 100vh;
+	background: #535353;
+}
+
+.grid {
+	display: grid;
+	width: 100%;
+	height: 50%;
+}
+
+.grid.column-1 {
+	grid-template-columns: 100%;
+	grid-template-rows: 100%;
+}
+
+.grid.column-2 {
+	grid-template-columns: 60% 40%;
+}
+
+.grid.column-3 {
+	grid-template-columns: repeat(3, calc(100% / 3));
+	grid-template-rows: 100%;
+}
+
+.main-info a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.main-info a .icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.icon img {
+	width: 50px;
+	height: 50px;
+	color: #fff;
+}
+
+.main-info a h2 {
+	text-align: center;
+	color: #fff;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-size: 1.8em;
+}
+
+.item p {
+	font-size: 1.2em;
+	color: white;
+	text-align: center;
+}
+
+.about {
+	background-image: url("https://www.microcen.com/images/sliders/master/about-us.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.about a {
+	background-color: #0065ff52;
+}
+
+.company {
+	background-image: url("../img/background/Register-Cleaning-Company-in-Singapore.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.company a {
+	background-color: #38000045;
+}
+
+.project {
+	background-image: url("https://cdn.pixabay.com/photo/2015/09/05/20/02/coding-924920_1280.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.project a {
+	background-color: #00093899;
+}
+
+.article {
+	background-image: url("../img/background/devenir-redacteur-web.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.article a {
+	background-color: #38110061;
+}
+
+/* section contact */
+
+/* info-contact */
+.main-contact {
+	width: 100%;
+	height: 90vh;
+	background: #dfe4ea;
+}
+
+.contact-title h3 {
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.border {
+	width: 160px;
+	height: 5px;
+	background: #36aeff;
+	margin: 26px auto;
+}
+
+.contact-title {
+	height: 150px;
+}
+
+.contact-title h4 {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.contact-title p {
+	margin: 15px 0;
+}
+
+.mail-contact {
+	margin: 20px;
+	height: calc(90vh - 2*20px - 150px);
+}
+
+.mail-header {
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+.mail-header input {
+	margin: 20px 20px 20px 0;
+	height: 30px;
+	background: none;
+	border: 0;
+	border-bottom: 1px solid #838383;
+}
+
+.mail-header input:last-child {
+	margin: 20px 0;
+}
+
+.mail-contact form {
+	height: calc(100% - 150px);
+}
+
+.mail-text textarea {
+	min-width: calc(100% - 12px);
+	max-width: calc(100% - 12px);
+	min-height: 170px;
+	max-height: 170px;
+	background: none;
+	padding: 5px;
+	border: 1px solid #838383;
+}
+
+.submit-button-container {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	height: calc(100% - (71px + 182px));
+}
+
+.submit-button-container button {
+	border: 0;
+	background: none;
+	text-align: center;
+	border: 2px solid #057eff;
+	padding: 14px 40px;
+	outline: none;
+	color: black;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+.submit-button-container button:hover {
+	background: #057eff;
+	color: white;
+}
+
+.info-contact {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.info-contact h3 {
+	text-transform: capitalize;
+	color: #1b9cfc;
+	margin-bottom: 5px;
+}
+
+.div-center {
+	width: auto;
+}
+
+.div-center > div {
+	margin: 30px 0;
+}
+
+.div-center div > div {
+	display: inline-block;
+}
+
+.div-center .icon {
+	margin-right: 20px;
+}
+
+.info-contact a,
+.info-contact p {
+	color: #383838;
+}
+
+@media screen and (max-width: 1030px) {
+	.main-info {
+		height: auto;
+	}
+	.grid.column-2 {
+		grid-template-columns: 100%;
+	}
+
+	.grid {
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+
+	.item {
+		height: 250px;
+		padding: 25px 0;
+	}
+
+	.info-contact {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.main-contact {
+		height: auto;
+	}
+
+	.div-center {
+		margin: 0%;
+		display: grid;
+		grid-template-columns: 50% 50%;
+		width: 100%;
+		margin: 0 30px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.main-header {
+		text-align: center;
+	}
+
+	.main-header .title h1 {
+		text-align: center;
+		font-size: 3em;
+	}
+
+	.main-header .info p {
+		margin-top: 30px;
+		font-size: 1.2em;
+	}
+
+	.div-center {
+		display: block;
+		width: auto;
+		margin: 0%;
+	}
+}

@@ -1,0 +1,43 @@
+header {
+	height: 100vh;
+	width: auto;
+	z-index: 3;
+	right: -90px;
+}
+
+nav {
+	border-radius: 10px 0 0 10px;
+	width: auto;
+}
+
+nav ul li a {
+	display: flex;
+	align-items: center;
+	padding: 40px 10px;
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+}
+
+nav ul li a img {
+	width: 32px;
+	height: 32px;
+	margin-right: 20px;
+}
+
+.bg-nav {
+	background: #40739e;
+}
+
+/* selection hover */
+nav ul li a:hover {
+	background: #487eb0;
+}
+
+nav ul li:first-child a:hover {
+	border-top-left-radius: 10px;
+}
+
+nav ul li:last-child a:hover {
+	border-bottom-left-radius: 10px;
+}

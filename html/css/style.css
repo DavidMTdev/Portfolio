@@ -1,0 +1,50 @@
+@import url('nullify.css');
+@import url('navbar.css');
+@import url('home.css');
+@import url('portfolio.css');
+@import url('about.css');
+@import url('article.css');
+
+.flex {
+	display: flex;
+}
+
+.justify-content-center {
+	justify-content: center;
+}
+
+.justify-content-space-between {
+	justify-content: space-between;
+}
+
+.align-items-center {
+	align-items: center;
+}
+
+.justify-content-flex-end {
+	justify-content: flex-end;
+}
+
+.background {
+	background: #ecf0f1;
+}
+
+.container {
+	width: 60vw;
+}
+
+.background:nth-child(odd) {
+	background: #3498db;
+}
+
+.grid {
+	display: grid;
+}
+
+.position-fixed {
+	position: fixed;
+}
+
+.position-absolute {
+	position: absolute;
+}

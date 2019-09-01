@@ -1,0 +1,76 @@
+.margin-left100 {
+	margin-left: 100px;
+}
+
+.margin-top60 {
+	margin-top: 60px;
+}
+
+.margin-top40 {
+	margin-top: 40px;
+}
+
+.margin-bottom60 {
+	margin-bottom: 60px;
+}
+
+.margin-bottom40 {
+	margin-bottom: 40px;
+}
+
+.margin-v20 {
+	margin: 20px 0;
+}
+
+#article .background h3 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	color: #2980b9;
+}
+#article .background h4 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: #2980b9;
+}
+#article .background h5 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	color: #2980b9;
+}
+#article .background h6 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: #2980b9;
+}
+
+#article .background:nth-child(odd) h3 {
+	color: #eaeaea;
+}
+
+#article .background:nth-child(odd) h4 {
+	color: #eaeaea;
+}
+#article .background:nth-child(odd) h5 {
+	color: #eaeaea;
+}
+#article .background:nth-child(odd) h6 {
+	color: #eaeaea;
+}
+
+#article .background .text {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 27px;
+	text-align: justify;
+	text-indent: 40px;
+	color: #95a5a6;
+}
+
+#article .background:nth-child(odd) .text {
+	color: #ecf0f1;
+}

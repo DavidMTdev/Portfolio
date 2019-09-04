@@ -4,6 +4,7 @@
 @import url('portfolio.css');
 @import url('about.css');
 @import url('article.css');
+@import url('footer.css');
 
 .flex {
 	display: flex;

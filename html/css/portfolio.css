@@ -68,7 +68,7 @@
 }
 
 .btn-expan .item {
-	background-image: url("../img/icons8-flèche-développer-26.png");
+	background-image: url("../img/icon/icons8-flèche-développer-26.png");
 	background-repeat: no-repeat;
 	height: 30px;
 	width: 30px;
@@ -79,7 +79,7 @@
 }
 
 .background:nth-child(odd) .btn-expan .item {
-	background-image: url("../img/icons8-flèche-développer-26.png");
+	background-image: url("../img/icon/icons8-flèche-développer-26.png");
 }
 
 .release-date {

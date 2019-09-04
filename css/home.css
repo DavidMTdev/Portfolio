@@ -1,16 +1,7 @@
-main {
-	width: 100%;
-	height: auto;
-	font-family: 'Montserrat', sans-serif;
-	padding: 0;
-}
-
-/* section header */
-
 .main-header {
 	width: 100%;
 	height: 100vh;
-	background-image: url("../img/background/programmeur.jpg");
+	background-image: url("/html/img/background/coding-924920_1280.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -70,22 +61,22 @@ main {
 	background: #535353;
 }
 
-.grid {
+#home .grid {
 	display: grid;
 	width: 100%;
 	height: 50%;
 }
 
-.grid.column-1 {
+#home .grid.column-1 {
 	grid-template-columns: 100%;
 	grid-template-rows: 100%;
 }
 
-.grid.column-2 {
+#home .grid.column-2 {
 	grid-template-columns: 60% 40%;
 }
 
-.grid.column-3 {
+#home .grid.column-3 {
 	grid-template-columns: repeat(3, calc(100% / 3));
 	grid-template-rows: 100%;
 }
@@ -126,7 +117,7 @@ main {
 }
 
 .about {
-	background-image: url("https://www.microcen.com/images/sliders/master/about-us.png");
+	background-image: url("/html/img/background/about-us.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -137,7 +128,7 @@ main {
 }
 
 .company {
-	background-image: url("../img/background/Register-Cleaning-Company-in-Singapore.jpg");
+	background-image: url("/html/img/background/Register-Cleaning-Company-in-Singapore.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -148,7 +139,7 @@ main {
 }
 
 .project {
-	background-image: url("https://cdn.pixabay.com/photo/2015/09/05/20/02/coding-924920_1280.jpg");
+	background-image: url("/html/img/background/iso-republic-colorful-programming-code.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -159,7 +150,7 @@ main {
 }
 
 .article {
-	background-image: url("../img/background/devenir-redacteur-web.jpeg");
+	background-image: url("/html/img/background/devenir-redacteur-web.jpeg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -305,11 +296,11 @@ main {
 	.main-info {
 		height: auto;
 	}
-	.grid.column-2 {
+	#home .grid.column-2 {
 		grid-template-columns: 100%;
 	}
 
-	.grid {
+	#home .grid {
 		display: block;
 		width: 100%;
 		height: auto;

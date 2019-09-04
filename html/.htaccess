@@ -1,0 +1,5 @@
+//Rewrite to www
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^david-teixeira.byethost18.com[nc]
+RewriteRule ^(.*)$ http://www.david-teixeira.byethost18.com/$1 [r=301,nc]
